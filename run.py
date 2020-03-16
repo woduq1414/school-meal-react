@@ -6,7 +6,7 @@ from flask import render_template
 # app.app_context().push()
 
 from app.db import db
-app = create_app('app.config')
+app = create_app('config')
 # db.create_all(app=app)
 
 @app.teardown_appcontext

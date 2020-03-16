@@ -27,7 +27,7 @@ export const getCookie = (cookie_name) => {
 
 
 export const API = axios.create({
-    baseURL: (window.location.hostname == "127.0.0.1" || window.location.hostname == "localhost") ? "http://127.0.0.1:5000/api" : "http://f6540883.ngrok.io/api", // 공통 요청 경로를 지정해준다.  process.env.baseURL ||
+    baseURL: (window.location.hostname == "127.0.0.1" || window.location.hostname == "localhost") ? "http://127.0.0.1:5000/api" : "https://school-meal.azurewebsites.net/api", // 공통 요청 경로를 지정해준다.  process.env.baseURL ||
 });
 
 
