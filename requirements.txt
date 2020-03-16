@@ -3,7 +3,6 @@ marshmallow-jsonapi==0.3.0
 alembic==1.4.0
 amqp==2.5.2
 aniso8601==6.0.0
-asyncio==3.4.3
 bcrypt==3.1.6
 billiard==3.6.3.0
 celery==4.4.0
